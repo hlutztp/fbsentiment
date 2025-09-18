@@ -13,7 +13,7 @@ def main():
     """
     #title/subheader set here
     st.title("Facebook Group Sentiment Analysis")
-    st.subheader("Enter weekly posts from a Facebook Coach Group")
+    st.subheader("Enter weekly posts from the Facebook Coach Group")
     
     #input from users is set here
     facebook_comments = st.text_area("Enter Facebook posts here, leave a line break between posts")
