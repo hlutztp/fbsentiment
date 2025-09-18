@@ -5,12 +5,7 @@ import re
 import nltk
 
 # Download NLTK stopwords if not already downloaded
-try:
-    nltk.data.find('corpora/stopwords')
-except nltk.downloader.DownloadError:
-    nltk.download('stopwords')
-finally:
-    from nltk.corpus import stopwords
+
 
 def main():
     """
